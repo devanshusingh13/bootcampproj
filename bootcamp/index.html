@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp</title>
+    <link rel="stylesheet" href="code.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#collage">Collage</a></li>
+                <li><a href="Devanshu Singh Jadon.pdf" type="application/pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.instagram.com/devanshusingh13/" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <div class="timer">
+        <div class="timetext">
+            <h1>TIME IS RUNNING!</h1>
+            <div class="countdown">
+                <div class="box daybox">
+                    <h3 class="day">Time</h3>
+                    <h3>D</h3>
+                </div>
+                <div class="box hourbox">
+                    <h3 class="hour">Time</h3>
+                    <h3>H</h3>
+                </div>
+                <div class="box minbox">
+                    <h3 class="min">Time</h3>
+                    <h3>M</h3>
+                </div>
+                <div class="box secbox">
+                    <h3 class="sec">Time</h3>
+                    <h3>S</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="first">
+    <br>
+    <!-- <h1 align="center">Form</h1> -->
+    <div class="register">
+        <h1>Registeration Form</h1>
+    </div> 
+    <div class="formdetail">
+        <form>
+            <div>
+                <label for="name">
+                Name:
+                <input type="text" placeholder="Enter Name" id="name">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="pass">
+                Password:
+                <input type="password" placeholder="Enter Password" id="pass">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="gender">
+                Gender:
+                Male<input type="radio" name="gender" >
+                Female<input type="radio" name="gender">
+                </label>  
+            </div>
+            <br>
+            <div>
+                <label for="email">
+                Email:
+                <input type="email" placeholder="Enter Email" id="email">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="phone">
+            Phone no:
+            <input type="text" value="+91" size="1px" disabled>
+            <input type="phone" placeholder="Enter Number" id="phone">
+            </label>
+            </div>
+            <br>
+            <div>
+                <label for="phone">
+                Upload Image:
+                <input type="file">
+                </label>
+            </div>
+            <br>
+            <br> 
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+    <br>
+    <hr class="first">
+    <br>
+    <div>
+        <h1 align="center">Name Of The Participants</h1>
+        <table class="color" border="2px" align="center">
+            <caption id="caption"><b><u>This is table no. 1</u></b></caption>      
+            <tr align="center">
+                <th>Sr No.</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Image Name</th>
+            </tr>
+            <tr align="center">
+                <th>1</th>
+                <td>Devanshu</td>
+                <td>Male</td>
+                <td>1</td>
+            </tr>
+            <tr align="center">
+                <th>2</th>
+                <td>Aman</td>
+                <td>Male</td>
+                <td>2</td>
+            </tr>
+            <tr align="center">
+                <th>3</th>
+                <td>Sanskar</td>
+                <td>Male</td>
+                <td>3</td>
+            </tr>
+            <tr align="center">
+                <th>4</th>
+                <td>Priyadarshani</td>
+                <td>Female</td>
+                <td>4</td>
+            </tr>
+            <tr align="center">
+                <th>5</th>
+                <td>Shreya</td>
+                <td>Female</td>
+                <td>5</td>
+            </tr>
+            <tr align="center">
+                <th>6</th>
+                <td>Aditya</td>
+                <td>Male</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr class="first">
+    <br>
+    <font align="center" color="black">
+        <h1 id="collage">THE BEAUTIFUL COLLAGE</h1>
+    </font>
+    <br>
+    <table align="center">
+        <tr>
+            <td>
+                <img src="1.jpg" width="300px" height="300px" alt="">
+            </td>
+            <td>
+                <img src="2.jpg" width="300px" height="300px" alt="">
+            </td>
+            <td>
+                <img src="3.jpg" width="300px" height="300px" alt="">
+            </td>
+        </tr>
+        <tr>    
+            <td>
+                <img src="4.jpg" width="300px" height="300px" alt="">
+            </td>
+            <td>
+                <img src="5.jpg" width="300px" height="300px" alt="">
+            </td>
+            <td>
+                <img src="6.jpg" width="300px" height="300px" alt="">
+            </td>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr class="first">
+    <br>
+    <h1 align="center">Iframe</h1>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhZCp9Ioc2I?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.codingninjas.com/" width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <br>
+    <br>
+
+   
+
+
+</body>
+</html>
